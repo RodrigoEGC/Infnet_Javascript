@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+	<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <h1>Jogo da Memoria com os Melhores dos Animes e Games</h1>
+  <div id="jogodamemoria">
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script charset="utf8">
+    var app = {};
+    app.getComponente = function(nome) {
+      if (!app[nome]) {
+        app[nome] = {};
+      }
+      return app[nome];
+    };
+  </script>
+  <script src="script.js" charset="utf8"></script>
+</body>
+</html>
