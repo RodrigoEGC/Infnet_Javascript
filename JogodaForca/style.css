@@ -1,0 +1,63 @@
+            body{
+                
+            -webkit-box-shadow:inset 100px 75px 200px 10px #8583A8;
+             box-shadow:inset 100px 75px 200px 10px #8583A8;
+                 
+            }
+            .letra{
+                width:30px;
+                font-size:30px;
+                text-transform: uppercase;
+                text-align: center;
+                margin: 5px;
+                display:none;
+                border-radius: -webkit-border-radius: 10px 10px 10px 10px;
+                border-radius: 10px 10px 10px 10px;
+            }
+            .letraJ{
+                width:30px;
+                font-size:30px;
+                text-transform: uppercase;
+                text-align: center;
+                margin: 5px;
+                border-radius: -webkit-border-radius: 10px 10px 10px 10px;
+                border-radius: 10px 10px 10px 10px;
+            }
+            dvdisplay{
+                display: block;
+                
+            }
+            #dvForca{
+                position: absolute;
+                left:150px;
+            }
+            #cabeca{
+                position: absolute;
+                top:0px;
+                left:23px;
+            }
+            #corpo{
+                position: absolute;
+                top:170px;
+                left:100px;
+            }
+            #bracoD{
+                position: absolute;
+                top:170px;
+                left:105px
+            }
+            #bracoE{
+                position: absolute;
+                top:170px;
+                left:-17px;
+            }
+            #pernaD{
+                position: absolute;
+                top:450px;
+                left:105px;
+            }
+            #pernaE{
+                position:absolute;
+                top:450px;
+                left:-26px;
+            }
